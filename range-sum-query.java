@@ -19,7 +19,7 @@ class NumArray {
             sum = sum - al.get(i);
         }
         for(int i=right+1;i<al.size();i++)
-            sum = sum - al.get(i);
+            sum -= al.get(i);
         return sum;
     }
 }
